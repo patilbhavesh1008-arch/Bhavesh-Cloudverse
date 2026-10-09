@@ -1,0 +1,49 @@
+cat > index.html <<'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bhavesh | CloudVerse</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#080d18;color:#edf4ff}
+main{max-width:1050px;margin:auto;padding:35px 22px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px solid #24334a}
+.logo{font-size:23px;font-weight:bold;color:#7df7c1}
+nav span{color:#9aabc5}
+.hero{padding:85px 0 55px}
+.tag{color:#7df7c1;letter-spacing:3px;font-size:12px}
+h1{font-size:clamp(42px,8vw,76px);line-height:1.08;margin:20px 0}
+h1 span{color:#7df7c1}
+p{color:#a2b2cb;line-height:1.8}
+.btn{display:inline-block;background:#7df7c1;color:#07121c;padding:14px 22px;border-radius:9px;text-decoration:none;font-weight:bold;margin-top:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:17px;margin:25px 0}
+.card{background:#111b2d;border:1px solid #263751;padding:24px;border-radius:16px}
+.card h2{color:#7df7c1;font-size:19px}
+.card p{font-size:14px}
+h3{margin-bottom:8px}
+footer{margin-top:45px;border-top:1px solid #24334a;padding-top:22px;color:#7186a5;font-size:12px}
+</style>
+</head>
+<body>
+<main>
+<nav><div class="logo">☁️ CloudVerse</div><span>BY BHAVESH</span></nav>
+<section class="hero">
+<div class="tag">YOUR CLOUD. YOUR VISION.</div>
+<h1>Welcome to<br><span>Bhavesh's</span><br>CloudVerse.</h1>
+<p>A modern cloud-learning space where ideas become applications.<br>Building skills in AWS, Docker, Linux and cloud deployment.</p>
+<a class="btn" href="#projects">Explore Projects ↗️</a>
+</section>
+<h2 id="projects">My Cloud Toolkit</h2>
+<section class="grid">
+<div class="card"><h2>☁️ AWS Cloud</h2><p>Exploring EC2, S3, IAM and cloud infrastructure.</p></div>
+<div class="card"><h2>▣ Docker</h2><p>Building container images and deploying web applications.</p></div>
+<div class="card"><h2>⌘ Linux</h2><p>Practicing terminal commands, server management and automation.</p></div>
+</section>
+<h2>About This Project</h2>
+<div class="card"><h3>Designed & deployed by Bhavesh</h3><p>CloudVerse is a personal learning project built with HTML and CSS, packaged with Docker, and designed for deployment on AWS EC2.</p></div>
+<footer>© 2026 Bhavesh · CloudVerse | Learn. Build. Deploy.</footer>
+</main>
+</body>
+</html>
